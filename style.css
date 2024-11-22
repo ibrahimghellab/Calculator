@@ -1,0 +1,32 @@
+#buttons {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+button{
+  margin: 3px;
+}
+#app,p{
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+#content{
+  margin: 10px;
+}
+
+p{
+  text-align: right;
+  padding: 5px;
+}
+
+#app{
+  height: 80vh;
+}
+
+body{
+  display: flex;
+  overflow-y: hidden;
+  justify-content: center;
+  height: 100vh;
+}
